@@ -1,6 +1,5 @@
 import React from "react";
 import { useConfigureSotre } from "@/app/store/store";
-import ConfigureFood from "../ConfigureFood";
 
 export default function FoodResults({ results, setResults }) {
   const addConfiguration = useConfigureSotre((state) => state.addConfiguration);
@@ -34,7 +33,7 @@ export default function FoodResults({ results, setResults }) {
                 </p>
               </div>
               <button
-                className="bg-white hover:bg-gray-100 text-blue-500 font-bold py-1 px-2 rounded-full focus:outline-none focus:shadow-outline mr-3"
+                className="bg-white hover:bg-gray-100 text-indigo-500 font-bold py-1 px-2 rounded-full focus:outline-none focus:shadow-outline mr-3"
                 onClick={() => HandleClick(result)}
               >
                 <svg

@@ -12,7 +12,7 @@ export default function ItemInfo({ hello, quantity, kcal, carb, fat, prot }) {
   }));
 
   return (
-    <div className="flex items-center justify-between shadow-sm rounded-lg">
+    <div className="flex items-center justify-between shadow-sm rounded-lg bg-gray-100">
       <div className="px-4 py-2 ">
         <h3
           className={

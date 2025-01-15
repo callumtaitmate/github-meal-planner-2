@@ -16,7 +16,7 @@ export default function Download() {
   else {
     return (
       <CSVLink data={data} filename={"mealplan.csv"}>
-        <button className="w-full mt-1 text-center bg-blue-500 hover:bg-blue-600 text-white text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline">
+        <button className="w-full mt-6 text-center bg-indigo-500 hover:bg-indigo-500 text-white text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline">
           Export
         </button>
       </CSVLink>
