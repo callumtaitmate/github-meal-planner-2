@@ -93,7 +93,7 @@ export function ConfigureFood() {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Price (GBP)
+            Price
           </label>
           <input
             type="number"

@@ -36,7 +36,7 @@ export default function DayTotal() {
       </p>
 
       <p className="my-3 text-xs text-center text-white bg-blue-500 py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
-        <b>{priceParsed} GBP</b>
+        <b>{priceParsed}</b>
       </p>
     </div>
   );

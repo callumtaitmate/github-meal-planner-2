@@ -118,7 +118,7 @@ export default function AddAllDays({ postCalcObject, hello }) {
       <button
         className={
           hello.result.food.label == "Add food to start"
-            ? "cursor-not-allowed bg-blue-300 hover:bg-blue-300 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none"
+            ? "cursor-not-allowed bg-indigo-300 hover:bg-indigo-300 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none"
             : "bg-blue-500 hover:bg-blue-500 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none"
         }
         onClick={() =>

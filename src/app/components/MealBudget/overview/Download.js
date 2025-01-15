@@ -9,7 +9,7 @@ export default function Download() {
   }));
   if (data.length == 0)
     return (
-      <div className="mt-1 text-center cursor-not-allowed bg-blue-300 text-white text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline">
+      <div className="mt-1 text-center cursor-not-allowed bg-indigo-300 hover:bg-indigo-300 text-white text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline">
         Export
       </div>
     );
