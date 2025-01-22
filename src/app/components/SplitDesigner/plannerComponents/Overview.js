@@ -31,7 +31,7 @@ export function Overview() {
           <div className="space-y-2 pt-4">
             <button
               onClick={() => clearAll()}
-              className="w-full bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"
+              className="w-full outline outline-red-500 bg-white hover:bg-red-200 text-red-600 font-medium py-1 px-4 rounded-lg transition-colors duration-200 mb-3"
             >
               Clear All
             </button>

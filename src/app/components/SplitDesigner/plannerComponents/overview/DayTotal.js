@@ -45,7 +45,7 @@ export default function DayTotal() {
         <p className="my-1 text-xs py-1 px-2 text-gray-700 rounded focus:outline-none focus:shadow-outline">
           <b>Daily Reps</b>
         </p>
-        <p className="my-1 text-xs text-center text-white bg-gray-500 py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
+        <p className="my-1 text-xs text-center text-gray-600 outline bg-white py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
           <b>{totalReps} Reps</b>
         </p>
       </div>
@@ -54,7 +54,7 @@ export default function DayTotal() {
         <p className="my-1 text-xs py-1 px-2 text-gray-700 rounded focus:outline-none focus:shadow-outline">
           <b>Daily Sets</b>
         </p>
-        <p className="my-1 text-xs text-center text-white bg-gray-500 py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
+        <p className="my-1 text-xs text-center text-gray-600 outline bg-white py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
           <b>{sets} Sets</b>
         </p>
       </div>
@@ -62,7 +62,7 @@ export default function DayTotal() {
         <p className="my-1 text-xs py-1 px-2 text-gray-700 rounded focus:outline-none focus:shadow-outline">
           <b>Daily Weight</b>
         </p>
-        <p className="my-1 text-xs text-center text-white bg-gray-500 py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
+        <p className="my-1 text-xs text-center text-gray-600 outline bg-white py-1 px-2 ml-4 rounded focus:outline-none focus:shadow-outline">
           <b>{totalWeight} Kgs</b>
         </p>
       </div>

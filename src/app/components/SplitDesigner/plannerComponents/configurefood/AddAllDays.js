@@ -113,8 +113,8 @@ export default function AddAllDays({ hello, reps, sets, weight, id }) {
       disabled={hello.result.name == "Add Exercise to Start"}
         className={
           hello.result.name == "Add Exercise to Start"
-            ? "cursor-not-allowed bg-blue-300 hover:bg-blue-300 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none focus:shadow-outline"
-            : "bg-blue-500 hover:bg-blue-500 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none focus:shadow-outline"
+            ? "cursor-not-allowed bg-indigo-300 hover:bg-indigo-300 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none focus:shadow-outline"
+            : "bg-indigo-500 hover:bg-indigo-500 text-white text-xs font-bold py-1 px-4 mr-2 rounded focus:outline-none focus:shadow-outline"
         }
         onClick={() => handleAdd(monday, tuesday, wednesday, thursday, friday, saturday, sunday)}
       >
