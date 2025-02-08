@@ -75,6 +75,7 @@ export function ConfigureFood() {
             />
             <button
               onClick={updateMacros}
+              onKeyDown={updateMacros}
               className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors duration-200"
             >
               Recalculate
